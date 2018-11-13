@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    height: 100%;
+    font-size: 50px;
+    color: white;
+}
+
+.header {
+    height: 20%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: dimgrey;
+}
+
+.navigation {
+    height: 10%;
+    display: inline-flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 10%;
+    width: 100%;
+    background-color: gray;
+}
+.table {
+    width: 100%;
+    height: 50%;
+    display: table;
+    text-align: center;
+    padding: 20px;
+}
+.main-content {
+    width: 50%;
+    background-color: darkgray;
+    margin-right: 10px;
+}
+
+.child-div {
+    height: 600px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+}
+
+.sidebar {
+    width: 30%;
+    background-color: #8C8C8C;
+}
+
+.footer {
+    height: 20%;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    background-color: dimgrey;
+}
